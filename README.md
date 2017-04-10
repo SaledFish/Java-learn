@@ -14,7 +14,7 @@
 ，可以git add 文件夹名字
 ，git commit -m "说明文字"
 ，git push
-，就创建好了文件夹。<br>
+，就创建好了文件夹。<br><br>
 2.本地上传时会出现git error: failed to push some refs to 'git@github.com:<br>
 出现这个错误是因为远程库中有文件没有下载下来，需要先运行：<br>
 git pull origin master<br>
