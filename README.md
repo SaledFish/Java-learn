@@ -20,3 +20,8 @@
 git pull origin master<br>
 然后远程文件同本地工程合并了，之后再本地库中添加新文件并提交<br>
 git push -u origin master<br>
+<br>
+3.发现了一个问题，本地push后，Github上的库中可以显示commit，但是首页上不能正常显示contributions，<br>
+即小绿块，解决方法为在git中重新设置 用户名 和 邮箱<br>
+git config --global user.name [username]<br>
+git config --global user.email [user email]<br>
