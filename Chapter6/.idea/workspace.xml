@@ -14,27 +14,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/clone/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <marker date="1492695578740" expanded="true" signature="1116:1195" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeSortTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces/EmployeeSortTest.java">
+      <file leaf-file-name="CloneTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/clone/CloneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+            <state relative-caret-position="177">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -59,6 +57,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/interfaces/Employee.java" />
         <option value="$PROJECT_DIR$/src/interfaces/EmployeeSortTest.java" />
+        <option value="$PROJECT_DIR$/src/clone/Employee.java" />
+        <option value="$PROJECT_DIR$/src/clone/CloneTest.java" />
       </list>
     </option>
   </component>
@@ -69,8 +69,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="72" />
+    <option name="x" value="734" />
+    <option name="y" value="31" />
     <option name="width" value="1205" />
     <option name="height" value="779" />
   </component>
@@ -114,8 +114,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -144,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EmployeeSortTest">
+  <component name="RunManager" selected="Application.CloneTest">
     <configuration default="false" name="EmployeeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -153,6 +167,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="interfaces.EmployeeSortTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chapter6" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="clone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="clone.CloneTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -545,12 +579,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.EmployeeSortTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CloneTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.EmployeeSortTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.CloneTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EmployeeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -564,16 +600,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492690535278</updated>
-      <workItem from="1492690537928" duration="873000" />
+      <workItem from="1492690537928" duration="3164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="873000" />
+    <option name="totallyTimeSpent" value="3164000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="72" width="1205" height="779" extended-state="0" />
-    <editor active="true" />
+    <frame x="734" y="31" width="1205" height="779" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -590,7 +625,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14410481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19475983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -631,23 +666,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="272">
           <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/EmployeeSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="272">
           <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <marker date="1492695578740" expanded="true" signature="1116:1195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone/CloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding />
         </state>
       </provider>
