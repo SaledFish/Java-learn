@@ -25,3 +25,4 @@ git push -u origin master<br>
 即小绿块，解决方法为在git中重新设置 用户名 和 邮箱<br>
 git config --global user.name [username]<br>
 git config --global user.email [user email]<br>
+补充：再设置用户名和用户邮箱时，git需要处在跟目录下，不能位于本地库路径中<br>
